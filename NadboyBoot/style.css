@@ -1,0 +1,55 @@
+.n1{
+    list-style: square;
+    color: gold;
+    margin-left: 20px;
+}
+
+.n{
+    list-style: none;
+    box-shadow: 0px 5px 5px 0px rgb(194, 185, 185);
+    text-align: center;
+}
+.p{
+    overflow-x:scroll;
+    display: flex;
+   
+}
+.sp1{
+    margin-left: 100px;
+    list-style: none;
+}
+.sp{
+    margin-left: 15px;
+    list-style: none;
+}
+.a{
+    text-align: center;
+    margin-top: -50px;
+}
+.n2{
+    text-align: center;
+}
+.n3{
+    padding: 50px;
+}
+.s:hover{
+    opacity: 0.5;
+}
+.hr{
+  border-bottom: 5px solid black;
+}
+
+input:hover{
+    border-bottom: 5px solid gold;
+}
+button{
+   width: 100%;
+}
+.h1{
+    display: none;
+}
+@media(max-width:952px){
+.h1{
+    display:inline;
+}
+}
